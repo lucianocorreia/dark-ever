@@ -3,7 +3,7 @@
   "displayName": "Dark Ever",
   "description": "A dark theme inspired by Everforest Dark Hard — warm, green-based palette easy on the eyes.",
   "version": "0.1.0",
-  "publisher": "lucianocorreia",
+  "publisher": "correiadark",
   "license": "MIT",
   "engines": {
     "vscode": "^1.70.0"
