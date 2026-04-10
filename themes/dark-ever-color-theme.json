@@ -233,6 +233,19 @@
     "pickerGroup.foreground": "#7f897d",
 
     // ---------------------------------------------------------
+    // Suggest Widget / Autocomplete
+    // ---------------------------------------------------------
+    "editorSuggestWidget.background": "#21272b",
+    "editorSuggestWidget.border": "#374145",
+    "editorSuggestWidget.foreground": "#d3c6aa",
+    "editorSuggestWidget.highlightForeground": "#a7c080",
+    "editorSuggestWidget.selectedBackground": "#374145",
+    "editorSuggestWidget.selectedForeground": "#d3c6aa",
+    "editorSuggestWidget.selectedIconForeground": "#83c092",
+    "editorSuggestWidget.focusHighlightForeground": "#83c092",
+    "editorSuggestWidgetStatus.foreground": "#859289",
+
+    // ---------------------------------------------------------
     // Notifications
     // ---------------------------------------------------------
     "notifications.background": "#272e33",
