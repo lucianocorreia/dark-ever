@@ -1,0 +1,39 @@
+{
+  "name": "dark-ever",
+  "displayName": "Dark Ever",
+  "description": "A dark theme inspired by Everforest Dark Hard — warm, green-based palette easy on the eyes.",
+  "version": "0.1.0",
+  "publisher": "lucianocorreia",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "everforest",
+    "green",
+    "color theme"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1b2024",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Ever",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-ever-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucianocorreia/dark-ever"
+  }
+}
