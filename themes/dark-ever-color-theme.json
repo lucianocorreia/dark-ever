@@ -20,7 +20,7 @@
     // ---------------------------------------------------------
     // Editor
     // ---------------------------------------------------------
-    "editor.background": "#272e33",
+    "editor.background": "#21272b",
     "editor.foreground": "#d3c6aa",
     "editorCursor.foreground": "#d3c6aa",
     "editorCursor.background": "#1b2024",
@@ -56,7 +56,7 @@
     "editorWarning.foreground": "#dbbc7f",
     "editorInfo.foreground": "#7fbbb3",
     "editorHint.foreground": "#83c092",
-    "editorGutter.background": "#272e33",
+    "editorGutter.background": "#21272b",
     "editorGutter.addedBackground": "#a7c080",
     "editorGutter.modifiedBackground": "#7fbbb3",
     "editorGutter.deletedBackground": "#e67e80",
@@ -74,7 +74,7 @@
     "tab.activeBackground": "#272e33",
     "tab.activeForeground": "#d3c6aa",
     "tab.activeBorder": "#a7c080",
-    "tab.inactiveBackground": "#21272b",
+    "tab.inactiveBackground": "#1b2024",
     "tab.inactiveForeground": "#7f897d",
     "tab.hoverBackground": "#2e383c",
     "tab.border": "#1b2024",
@@ -95,7 +95,7 @@
     // ---------------------------------------------------------
     // Side Bar
     // ---------------------------------------------------------
-    "sideBar.background": "#21272b",
+    "sideBar.background": "#1b2024",
     "sideBar.foreground": "#d3c6aa",
     "sideBar.border": "#1b2024",
     "sideBarTitle.foreground": "#859289",
@@ -249,7 +249,7 @@
     // ---------------------------------------------------------
     // Panel (Terminal, Output, etc.)
     // ---------------------------------------------------------
-    "panel.background": "#21272b",
+    "panel.background": "#1b2024",
     "panel.border": "#374145",
     "panelTitle.activeBorder": "#a7c080",
     "panelTitle.activeForeground": "#d3c6aa",
