@@ -415,16 +415,20 @@
         "constant.numeric"
       ],
       "settings": {
-        "foreground": "#dbbc7f"
+        "foreground": "#d699b6"
       }
     },
     {
       "name": "Boolean / Null / Undefined",
       "scope": [
-        "constant.language"
+        "constant.language",
+        "constant.language.null",
+        "constant.language.undefined",
+        "constant.language.null.php",
+        "constant.language.boolean"
       ],
       "settings": {
-        "foreground": "#e69875"
+        "foreground": "#d699b6"
       }
     },
     {
@@ -449,11 +453,11 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#e67e80"
+        "foreground": "#d78789"
       }
     },
     {
-      "name": "Keyword operator",
+      "name": "Operators (all languages)",
       "scope": [
         "keyword.operator",
         "keyword.operator.logical",
@@ -462,7 +466,33 @@
         "keyword.operator.assignment"
       ],
       "settings": {
-        "foreground": "#83c092"
+        "foreground": "#e69875"
+      }
+    },
+    {
+      "name": "Access and key-value operators (->, ::, =>)",
+      "scope": [
+        "keyword.operator.access",
+        "keyword.operator.member",
+        "keyword.operator.object-access",
+        "keyword.operator.scope-resolution",
+        "keyword.operator.key-value",
+        "keyword.operator.object-access.php",
+        "keyword.operator.scope-resolution.php",
+        "keyword.operator.class.php",
+        "keyword.operator.array.php",
+        "punctuation.accessor",
+        "punctuation.separator.accessor",
+        "punctuation.separator.coloncolon",
+        "punctuation.separator.object-access",
+        "punctuation.separator.key-value",
+        "punctuation.separator.dictionary.key-value",
+        "punctuation.separator.object-access.php",
+        "punctuation.separator.coloncolon.php",
+        "punctuation.separator.key-value.php"
+      ],
+      "settings": {
+        "foreground": "#e69875"
       }
     },
     {
@@ -485,7 +515,7 @@
         "storage.modifier.async"
       ],
       "settings": {
-        "foreground": "#e67e80"
+        "foreground": "#d78789"
       }
     },
 
@@ -499,7 +529,16 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#e67e80"
+        "foreground": "#d78789"
+      }
+    },
+    {
+      "name": "PHP function keyword",
+      "scope": [
+        "storage.type.function.php"
+      ],
+      "settings": {
+        "foreground": "#e69875"
       }
     },
 
@@ -594,8 +633,7 @@
         "variable.language.self"
       ],
       "settings": {
-        "foreground": "#e67e80",
-        "fontStyle": "italic"
+        "foreground": "#e67e80"
       }
     },
 
@@ -636,7 +674,7 @@
         "punctuation.terminator"
       ],
       "settings": {
-        "foreground": "#859289"
+        "foreground": "#7f897d"
       }
     },
     {
@@ -799,8 +837,7 @@
         "markup.italic"
       ],
       "settings": {
-        "foreground": "#d699b6",
-        "fontStyle": "italic"
+        "foreground": "#d699b6"
       }
     },
     {
@@ -839,8 +876,7 @@
         "markup.quote"
       ],
       "settings": {
-        "foreground": "#7f897d",
-        "fontStyle": "italic"
+        "foreground": "#7f897d"
       }
     },
 
@@ -877,8 +913,7 @@
         "storage.modifier.lifetime.rust"
       ],
       "settings": {
-        "foreground": "#e69875",
-        "fontStyle": "italic"
+        "foreground": "#e69875"
       }
     },
     {
@@ -897,8 +932,7 @@
         "meta.attribute.rust"
       ],
       "settings": {
-        "foreground": "#7f897d",
-        "fontStyle": "italic"
+        "foreground": "#7f897d"
       }
     },
 
@@ -926,8 +960,7 @@
         "punctuation.decorator"
       ],
       "settings": {
-        "foreground": "#d699b6",
-        "fontStyle": "italic"
+        "foreground": "#d699b6"
       }
     },
 
@@ -979,11 +1012,11 @@
     "label": "#dbbc7f",
     "comment": { "foreground": "#7f897d", "italic": true },
     "string": "#a7c080",
-    "number": "#dbbc7f",
-    "keyword": "#e67e80",
-    "operator": "#83c092",
-    "modifier": "#e67e80",
+    "number": "#d699b6",
+    "keyword": "#d78789",
+    "operator": "#e69875",
+    "modifier": "#d78789",
     "regexp": "#a7c080",
-    "lifetime": { "foreground": "#e69875", "italic": true }
+    "lifetime": "#e69875"
   }
 }
