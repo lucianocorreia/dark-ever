@@ -7,7 +7,7 @@
 
     // =========================================================
     // BASE PALETTE — Everforest Dark Hard
-    //   bg0:   #1b2024  bg1:  #21272b  bg:   #272e33
+    //   bg0:   #1e2326  bg1:  #272e33  bg:   #272e33
     //   bg2:   #2e383c  bg3:  #374145  bg4:  #414b50
     //   bg5:   #495156
     //   grey0: #7f897d  grey1: #859289  grey2: #9aa79d
@@ -20,7 +20,7 @@
     // ---------------------------------------------------------
     // Editor
     // ---------------------------------------------------------
-    "editor.background": "#21272b",
+    "editor.background": "#272e33",
     "editor.foreground": "#d3c6aa",
     "editorCursor.foreground": "#d3c6aa",
     "editorCursor.background": "#1b2024",
@@ -56,7 +56,7 @@
     "editorWarning.foreground": "#dbbc7f",
     "editorInfo.foreground": "#7fbbb3",
     "editorHint.foreground": "#83c092",
-    "editorGutter.background": "#21272b",
+    "editorGutter.background": "#272e33",
     "editorGutter.addedBackground": "#a7c080",
     "editorGutter.modifiedBackground": "#7fbbb3",
     "editorGutter.deletedBackground": "#e67e80",
@@ -67,24 +67,24 @@
     // ---------------------------------------------------------
     // Editor Groups & Tabs
     // ---------------------------------------------------------
-    "editorGroup.border": "#1b2024",
+    "editorGroup.border": "#1e2326",
     "editorGroup.dropBackground": "#2e383c80",
-    "editorGroupHeader.tabsBackground": "#1b2024",
+    "editorGroupHeader.tabsBackground": "#1e2326",
     "editorGroupHeader.noTabsBackground": "#272e33",
     "tab.activeBackground": "#272e33",
     "tab.activeForeground": "#d3c6aa",
     "tab.activeBorder": "#a7c080",
-    "tab.inactiveBackground": "#1b2024",
+    "tab.inactiveBackground": "#1e2326",
     "tab.inactiveForeground": "#7f897d",
     "tab.hoverBackground": "#2e383c",
-    "tab.border": "#1b2024",
+    "tab.border": "#1e2326",
     "tab.unfocusedActiveForeground": "#9aa79d",
     "tab.unfocusedInactiveForeground": "#7f897d",
 
     // ---------------------------------------------------------
     // Activity Bar
     // ---------------------------------------------------------
-    "activityBar.background": "#1b2024",
+    "activityBar.background": "#1e2326",
     "activityBar.foreground": "#d3c6aa",
     "activityBar.inactiveForeground": "#495156",
     "activityBar.border": "#00000000",
@@ -95,7 +95,7 @@
     // ---------------------------------------------------------
     // Side Bar
     // ---------------------------------------------------------
-    "sideBar.background": "#1b2024",
+    "sideBar.background": "#1e2326",
     "sideBar.foreground": "#d3c6aa",
     "sideBar.border": "#1b2024",
     "sideBarTitle.foreground": "#859289",
@@ -125,10 +125,10 @@
     // ---------------------------------------------------------
     // Status Bar
     // ---------------------------------------------------------
-    "statusBar.background": "#1b2024",
+    "statusBar.background": "#1e2326",
     "statusBar.foreground": "#859289",
     "statusBar.border": "#00000000",
-    "statusBar.noFolderBackground": "#1b2024",
+    "statusBar.noFolderBackground": "#1e2326",
     "statusBar.debuggingBackground": "#e69875",
     "statusBar.debuggingForeground": "#1b2024",
     "statusBarItem.hoverBackground": "#2e383c",
@@ -141,16 +141,16 @@
     // ---------------------------------------------------------
     // Title Bar
     // ---------------------------------------------------------
-    "titleBar.activeBackground": "#1b2024",
+    "titleBar.activeBackground": "#1e2326",
     "titleBar.activeForeground": "#d3c6aa",
-    "titleBar.inactiveBackground": "#1b2024",
+    "titleBar.inactiveBackground": "#1e2326",
     "titleBar.inactiveForeground": "#7f897d",
     "titleBar.border": "#00000000",
 
     // ---------------------------------------------------------
     // Menu
     // ---------------------------------------------------------
-    "menu.background": "#21272b",
+    "menu.background": "#272e33",
     "menu.foreground": "#d3c6aa",
     "menu.selectionBackground": "#374145",
     "menu.selectionForeground": "#d3c6aa",
@@ -190,10 +190,10 @@
     // ---------------------------------------------------------
     // Dropdowns & Selects
     // ---------------------------------------------------------
-    "dropdown.background": "#21272b",
+    "dropdown.background": "#272e33",
     "dropdown.border": "#414b50",
     "dropdown.foreground": "#d3c6aa",
-    "dropdown.listBackground": "#21272b",
+    "dropdown.listBackground": "#272e33",
 
     // ---------------------------------------------------------
     // Scrollbar
@@ -226,7 +226,7 @@
     // ---------------------------------------------------------
     // Quick Pick / Command Palette
     // ---------------------------------------------------------
-    "quickInput.background": "#21272b",
+    "quickInput.background": "#272e33",
     "quickInput.foreground": "#d3c6aa",
     "quickInputHighlightForeground": "#a7c080",
     "pickerGroup.border": "#374145",
@@ -235,7 +235,7 @@
     // ---------------------------------------------------------
     // Notifications
     // ---------------------------------------------------------
-    "notifications.background": "#21272b",
+    "notifications.background": "#272e33",
     "notifications.foreground": "#d3c6aa",
     "notifications.border": "#374145",
     "notificationCenter.border": "#374145",
@@ -249,7 +249,7 @@
     // ---------------------------------------------------------
     // Panel (Terminal, Output, etc.)
     // ---------------------------------------------------------
-    "panel.background": "#1b2024",
+    "panel.background": "#1e2326",
     "panel.border": "#374145",
     "panelTitle.activeBorder": "#a7c080",
     "panelTitle.activeForeground": "#d3c6aa",
@@ -258,7 +258,7 @@
     // ---------------------------------------------------------
     // Terminal
     // ---------------------------------------------------------
-    "terminal.background": "#1b2024",
+    "terminal.background": "#1e2326",
     "terminal.foreground": "#d3c6aa",
     "terminal.selectionBackground": "#374145",
     "terminal.border": "#374145",
@@ -618,6 +618,15 @@
       }
     },
     {
+      "name": "PHP variable sigil ($)",
+      "scope": [
+        "punctuation.definition.variable.php"
+      ],
+      "settings": {
+        "foreground": "#e69875"
+      }
+    },
+    {
       "name": "Parameter",
       "scope": [
         "variable.parameter"
@@ -630,10 +639,11 @@
       "name": "this / self",
       "scope": [
         "variable.language.this",
-        "variable.language.self"
+        "variable.language.self",
+        "variable.language.this.php"
       ],
       "settings": {
-        "foreground": "#e67e80"
+        "foreground": "#d3c6aa"
       }
     },
 
