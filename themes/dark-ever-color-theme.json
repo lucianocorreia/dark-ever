@@ -392,6 +392,30 @@
         "fontStyle": "italic"
       }
     },
+    {
+      "name": "C# Region directives",
+      "scope": [
+        "keyword.control.directive.region.cs",
+        "keyword.control.directive.endregion.cs",
+        "keyword.control.directive.region",
+        "keyword.control.directive.endregion",
+        "punctuation.definition.directive.cs"
+      ],
+      "settings": {
+        "foreground": "#6f7a70",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "C# Region name",
+      "scope": [
+        "entity.name.section.region.cs",
+        "meta.preprocessor.region.cs"
+      ],
+      "settings": {
+        "foreground": "#859289"
+      }
+    },
 
     // ---------------------------------------------------------
     // Strings
