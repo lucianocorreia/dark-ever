@@ -395,11 +395,15 @@
     {
       "name": "C# Region directives",
       "scope": [
+        "meta.preprocessor.cs",
+        "meta.preprocessor",
         "keyword.control.directive.region.cs",
         "keyword.control.directive.endregion.cs",
         "keyword.control.directive.region",
         "keyword.control.directive.endregion",
-        "punctuation.definition.directive.cs"
+        "keyword.control.directive.cs",
+        "punctuation.definition.directive.cs",
+        "entity.name.function.preprocessor"
       ],
       "settings": {
         "foreground": "#6f7a70",
@@ -409,6 +413,8 @@
     {
       "name": "C# Region name",
       "scope": [
+        "meta.preprocessor.string.cs",
+        "meta.preprocessor.string",
         "entity.name.section.region.cs",
         "meta.preprocessor.region.cs"
       ],
@@ -1050,6 +1056,9 @@
     "method": "#83c092",
     "decorator": "#d699b6",
     "macro": "#83c092",
+    "macro:csharp": "#6f7a70",
+    "preprocessorText": "#859289",
+    "preprocessorText:csharp": "#859289",
     "variable": "#d3c6aa",
     "variable.readonly": "#d699b6",
     "parameter": "#e69875",
