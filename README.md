@@ -1,12 +1,19 @@
 # Dark Ever
 
-A dark theme for Visual Studio Code inspired by **Everforest Dark Hard** — warm, green-based palette, easy on the eyes.
+A dark theme extension for Visual Studio Code with two variants:
+
+- **Dark Ever**: inspired by **Everforest Dark Hard** with a warm, green-based palette.
+- **Dark Ever Hard**: based on **Gruvbox Dark Hard** with the classic Base16 palette.
 
 ## Screenshot
 
 > _(add a screenshot here after testing)_
 
-## Palette
+## Variants
+
+### Dark Ever
+
+Inspired by Everforest Dark Hard.
 
 | Role       | Color     | Preview |
 |------------|-----------|---------|
@@ -21,9 +28,26 @@ A dark theme for Visual Studio Code inspired by **Everforest Dark Hard** — war
 | Blue       | `#7fbbb3` | ![](https://placehold.co/15x15/7fbbb3/7fbbb3.png) |
 | Purple     | `#d699b6` | ![](https://placehold.co/15x15/d699b6/d699b6.png) |
 
+### Dark Ever Hard
+
+Based on Gruvbox Dark Hard.
+
+| Role       | Color     | Preview |
+|------------|-----------|---------|
+| Background | `#1d2021` | ![](https://placehold.co/15x15/1d2021/1d2021.png) |
+| Surface    | `#3c3836` | ![](https://placehold.co/15x15/3c3836/3c3836.png) |
+| Foreground | `#d5c4a1` | ![](https://placehold.co/15x15/d5c4a1/d5c4a1.png) |
+| Red        | `#fb4934` | ![](https://placehold.co/15x15/fb4934/fb4934.png) |
+| Orange     | `#fe8019` | ![](https://placehold.co/15x15/fe8019/fe8019.png) |
+| Yellow     | `#fabd2f` | ![](https://placehold.co/15x15/fabd2f/fabd2f.png) |
+| Green      | `#b8bb26` | ![](https://placehold.co/15x15/b8bb26/b8bb26.png) |
+| Aqua       | `#8ec07c` | ![](https://placehold.co/15x15/8ec07c/8ec07c.png) |
+| Blue       | `#83a598` | ![](https://placehold.co/15x15/83a598/83a598.png) |
+| Purple     | `#d3869b` | ![](https://placehold.co/15x15/d3869b/d3869b.png) |
+
 ## Credits
 
-Color palette based on [Everforest](https://github.com/sainnhe/everforest-vscode) by [sainnhe](https://github.com/sainnhe), licensed under MIT.
+Color palettes based on [Everforest](https://github.com/sainnhe/everforest-vscode) by [sainnhe](https://github.com/sainnhe) and [Gruvbox](https://github.com/morhetz/gruvbox) by [morhetz](https://github.com/morhetz).
 
 ## License
 
