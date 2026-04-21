@@ -58,6 +58,8 @@
     "editorHoverWidget.highlightForeground": "#658594",
     "editorInlayHint.background": "#1f1f28",
     "editorInlayHint.foreground": "#727169",
+    "editorIndentGuide.background1": "#2a2a37",
+    "editorIndentGuide.activeBackground1": "#54546d",
     "editorLineNumber.activeForeground": "#957fb8",
     "editorLineNumber.foreground": "#54546d",
     "editorMarkerNavigation.background": "#363646",
