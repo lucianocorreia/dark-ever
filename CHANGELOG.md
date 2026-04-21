@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.7]
+- Replaced `Dark Ever Hard` with `Dark Ever Kanagawa`
+- Registered the new Kanagawa variant in the extension manifest
+- Updated README variant and palette references
+
 ## [1.0.6]
 - Added the `Dark Ever Hard` theme variant based on Gruvbox Dark Hard
 - Registered both variants in the extension manifest
