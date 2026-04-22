@@ -455,6 +455,17 @@
       }
     },
     {
+      "name": "this / self",
+      "scope": [
+        "variable.language.this",
+        "variable.language.self",
+        "variable.language.this.php"
+      ],
+      "settings": {
+        "foreground": "#D27E99"
+      }
+    },
+    {
       "scope": [
         "entity.name.method.js"
       ],
