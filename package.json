@@ -2,7 +2,7 @@
   "name": "dark-ever",
   "displayName": "Dark Ever",
   "description": "A dark theme extension with Everforest and Kanagawa variants for Visual Studio Code.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "publisher": "correiadark",
   "license": "MIT",
   "engines": {
@@ -35,6 +35,11 @@
         "label": "Dark Ever Kanagawa",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-ever-kanagawa-color-theme.json"
+      },
+      {
+        "label": "Dark Ever Kanagawa Dragon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-ever-kanagawa-dragon-color-theme.json"
       }
     ]
   },

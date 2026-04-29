@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.2.0]
+- Added the `Dark Ever Kanagawa Dragon` theme variant based on Kanagawa Dragon
+- Registered the new Dragon variant in the extension manifest
+- Updated README with the Dragon palette documentation
+
 ## [1.0.7]
 - Replaced `Dark Ever Hard` with `Dark Ever Kanagawa`
 - Registered the new Kanagawa variant in the extension manifest
