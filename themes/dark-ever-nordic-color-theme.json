@@ -180,6 +180,16 @@
       }
     },
     {
+      "scope": [
+        "variable.language.this",
+        "variable.language.this.php",
+        "variable.language.self"
+      ],
+      "settings": {
+        "foreground": "#B48EAD"
+      }
+    },
+    {
       "scope": ["variable.parameter"],
       "settings": {
         "fontStyle": "italic"
