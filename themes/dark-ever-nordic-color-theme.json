@@ -190,12 +190,6 @@
       }
     },
     {
-      "scope": ["variable.parameter"],
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
       "scope": ["punctuation", "punctuation.definition"],
       "settings": {
         "foreground": "#B48EAD"
