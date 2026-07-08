@@ -44,6 +44,8 @@
     "editorWarning.foreground": "#EBCB8B",
     "editorInfo.foreground": "#75BEFF",
     "editorHint.foreground": "#969696",
+    "editorInlayHint.background": "#00000000",
+    "editorInlayHint.foreground": "#60728Ab3",
     "editorGutter.background": "#242933",
     "editorGutter.addedBackground": "#74C991",
     "editorGutter.modifiedBackground": "#E2C08D",
