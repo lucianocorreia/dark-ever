@@ -1,10 +1,11 @@
 # Dark Ever
 
-A dark theme extension for Visual Studio Code with three variants:
+A theme extension for Visual Studio Code with four variants:
 
 - **Dark Ever**: inspired by **Everforest Dark Hard** with a warm, green-based palette.
 - **Dark Ever Kanagawa**: based on **Kanagawa Wave** tones with a calm, ink-like palette.
 - **Dark Ever Kanagawa Dragon**: based on **Kanagawa Dragon** tones for darker late-night sessions.
+- **Dark Ever Nordic Light**: a light Nordic interpretation for bright environments.
 
 ## Screenshot
 
@@ -62,6 +63,23 @@ Based on Kanagawa Dragon tones.
 | Aqua       | `#8ea4a2` | ![](https://placehold.co/15x15/8ea4a2/8ea4a2.png) |
 | Blue       | `#8ba4b0` | ![](https://placehold.co/15x15/8ba4b0/8ba4b0.png) |
 | Violet     | `#8992a7` | ![](https://placehold.co/15x15/8992a7/8992a7.png) |
+
+### Dark Ever Nordic Light
+
+Based on Nordic tones adapted for light backgrounds.
+
+| Role       | Color     | Preview |
+|------------|-----------|---------|
+| Background | `#eceff4` | ![](https://placehold.co/15x15/eceff4/eceff4.png) |
+| Surface    | `#e5e9f0` | ![](https://placehold.co/15x15/e5e9f0/e5e9f0.png) |
+| Foreground | `#2e3440` | ![](https://placehold.co/15x15/2e3440/2e3440.png) |
+| Red        | `#bf616a` | ![](https://placehold.co/15x15/bf616a/bf616a.png) |
+| Orange     | `#d08770` | ![](https://placehold.co/15x15/d08770/d08770.png) |
+| Yellow     | `#ebcb8b` | ![](https://placehold.co/15x15/ebcb8b/ebcb8b.png) |
+| Green      | `#a3be8c` | ![](https://placehold.co/15x15/a3be8c/a3be8c.png) |
+| Aqua       | `#88c0d0` | ![](https://placehold.co/15x15/88c0d0/88c0d0.png) |
+| Blue       | `#5e81ac` | ![](https://placehold.co/15x15/5e81ac/5e81ac.png) |
+| Purple     | `#b48ead` | ![](https://placehold.co/15x15/b48ead/b48ead.png) |
 
 ## Credits
 
