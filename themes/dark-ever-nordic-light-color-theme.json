@@ -145,7 +145,7 @@
     {
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#8F8168",
+        "foreground": "#9A7FA8",
         "fontStyle": "italic"
       }
     },
@@ -229,6 +229,10 @@
     "function": "#5E81AC",
     "variable": "#3F4A5D",
     "parameter": "#3F4A5D",
-    "property": "#5E81AC"
+    "property": "#5E81AC",
+    "comment": {
+      "foreground": "#9A7FA8",
+      "italic": true
+    }
   }
 }
