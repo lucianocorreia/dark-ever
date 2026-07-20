@@ -83,6 +83,8 @@
     "list.hoverForeground": "#2E3440",
     "list.inactiveSelectionBackground": "#E8EEF7",
     "list.inactiveSelectionForeground": "#2E3440",
+    "list.errorForeground": "#BF616A",
+    "list.warningForeground": "#D08770",
     "menu.background": "#F6F8FC",
     "menu.foreground": "#2E3440",
     "menu.selectionBackground": "#D8DEE9",
@@ -226,7 +228,8 @@
     {
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "#BF616A"
+        "foreground": "#BF616A",
+        "fontStyle": ""
       }
     }
   ],
