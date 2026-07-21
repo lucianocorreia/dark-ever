@@ -213,6 +213,22 @@
       }
     },
     {
+      "scope": [
+        "entity.name.function.decorator",
+        "meta.decorator",
+        "punctuation.decorator",
+        "storage.type.annotation",
+        "storage.type.annotation.java",
+        "entity.name.type.annotation",
+        "entity.name.type.annotation.java",
+        "meta.annotation",
+        "meta.annotation.java"
+      ],
+      "settings": {
+        "foreground": "#B48EAD"
+      }
+    },
+    {
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
         "foreground": "#F48771"
@@ -224,6 +240,7 @@
     "interface": "#EBCB8B",
     "struct": "#EBCB8B",
     "enum": "#EBCB8B",
+    "decorator": "#B48EAD",
     "function": "#88C0D0",
     "variable": "#C0C8D8",
     "parameter": "#C0C8D8",
