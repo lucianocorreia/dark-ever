@@ -181,6 +181,10 @@
       "scope": [
         "entity.name.type",
         "support.type",
+        "support.class",
+        "support.other.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php",
         "storage.type",
         "entity.name.type.rust",
         "support.type.rust",
@@ -188,6 +192,18 @@
       ],
       "settings": {
         "foreground": "#B48F5D"
+      }
+    },
+    {
+      "scope": [
+        "support.class",
+        "support.other.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php",
+        "entity.name.type.class"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
       }
     },
     {
