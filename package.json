@@ -2,7 +2,7 @@
   "name": "dark-ever",
   "displayName": "Dark Ever",
   "description": "A theme extension with Everforest, Kanagawa, Nordic, and Nordic Light variants for Visual Studio Code.",
-  "version": "1.17.0",
+  "version": "1.18.0",
   "publisher": "correiadark",
   "license": "MIT",
   "engines": {
@@ -51,6 +51,11 @@
         "label": "Dark Ever Nordic Light",
         "uiTheme": "vs",
         "path": "./themes/dark-ever-nordic-light-color-theme.json"
+      },
+      {
+        "label": "Dark Ever Toggle",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-ever-toggle-color-theme.json"
       }
     ]
   },

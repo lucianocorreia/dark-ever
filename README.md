@@ -1,11 +1,13 @@
 # Dark Ever
 
-A theme extension for Visual Studio Code with four variants:
+A theme extension for Visual Studio Code with six variants:
 
 - **Dark Ever**: inspired by **Everforest Dark Hard** with a warm, green-based palette.
 - **Dark Ever Kanagawa**: based on **Kanagawa Wave** tones with a calm, ink-like palette.
 - **Dark Ever Kanagawa Dragon**: based on **Kanagawa Dragon** tones for darker late-night sessions.
+- **Dark Ever Nordic**: dark Nordic interpretation with cool contrast and balanced terminal colors.
 - **Dark Ever Nordic Light**: a light Nordic interpretation for bright environments.
+- **Dark Ever Toggle**: inspired by **togglebyte/nvim (togglebit.vim)** with muted blue-gray surfaces and tuned terminal ANSI colors.
 
 ## Screenshot
 
@@ -64,6 +66,23 @@ Based on Kanagawa Dragon tones.
 | Blue       | `#8ba4b0` | ![](https://placehold.co/15x15/8ba4b0/8ba4b0.png) |
 | Violet     | `#8992a7` | ![](https://placehold.co/15x15/8992a7/8992a7.png) |
 
+### Dark Ever Nordic
+
+Based on Nordic dark tones.
+
+| Role       | Color     | Preview |
+|------------|-----------|---------|
+| Background | `#242933` | ![](https://placehold.co/15x15/242933/242933.png) |
+| Surface    | `#1E232D` | ![](https://placehold.co/15x15/1E232D/1E232D.png) |
+| Foreground | `#ECEFF4` | ![](https://placehold.co/15x15/ECEFF4/ECEFF4.png) |
+| Red        | `#F48771` | ![](https://placehold.co/15x15/F48771/F48771.png) |
+| Orange     | `#D08770` | ![](https://placehold.co/15x15/D08770/D08770.png) |
+| Yellow     | `#EBCB8B` | ![](https://placehold.co/15x15/EBCB8B/EBCB8B.png) |
+| Green      | `#A3BE8C` | ![](https://placehold.co/15x15/A3BE8C/A3BE8C.png) |
+| Aqua       | `#88C0D0` | ![](https://placehold.co/15x15/88C0D0/88C0D0.png) |
+| Blue       | `#81A1C1` | ![](https://placehold.co/15x15/81A1C1/81A1C1.png) |
+| Purple     | `#B48EAD` | ![](https://placehold.co/15x15/B48EAD/B48EAD.png) |
+
 ### Dark Ever Nordic Light
 
 Based on Nordic tones adapted for light backgrounds.
@@ -81,9 +100,31 @@ Based on Nordic tones adapted for light backgrounds.
 | Blue       | `#5e81ac` | ![](https://placehold.co/15x15/5e81ac/5e81ac.png) |
 | Purple     | `#b48ead` | ![](https://placehold.co/15x15/b48ead/b48ead.png) |
 
+### Dark Ever Toggle
+
+Inspired by togglebyte's `togglebit.vim` with a modernized VS Code mapping.
+
+| Role         | Color     | Preview |
+|--------------|-----------|---------|
+| Background   | `#252C3D` | ![](https://placehold.co/15x15/252C3D/252C3D.png) |
+| Sidebar / UI | `#1D2230` | ![](https://placehold.co/15x15/1D2230/1D2230.png) |
+| Foreground   | `#C6C8CF` | ![](https://placehold.co/15x15/C6C8CF/C6C8CF.png) |
+| Red (error)  | `#C56673` | ![](https://placehold.co/15x15/C56673/C56673.png) |
+| Yellow       | `#D3BF8A` | ![](https://placehold.co/15x15/D3BF8A/D3BF8A.png) |
+| Green        | `#A5B48B` | ![](https://placehold.co/15x15/A5B48B/A5B48B.png) |
+| Cyan         | `#8FB7D6` | ![](https://placehold.co/15x15/8FB7D6/8FB7D6.png) |
+| Blue         | `#8BB7C8` | ![](https://placehold.co/15x15/8BB7C8/8BB7C8.png) |
+| Purple       | `#B39AC8` | ![](https://placehold.co/15x15/B39AC8/B39AC8.png) |
+
+Notable characteristics:
+
+- Terminal background matches sidebar (`#1D2230`) for a cohesive shell/editor layout.
+- ANSI colors are tuned to avoid oversaturated greens/oranges in command feedback.
+- Rust/PHP token scopes have extra refinements for symbols, enum members, and `$` sigils.
+
 ## Credits
 
-Color palettes based on [Everforest](https://github.com/sainnhe/everforest-vscode) by [sainnhe](https://github.com/sainnhe) and [Kanagawa](https://github.com/rebelot/kanagawa.nvim) by [rebelot](https://github.com/rebelot).
+Color palettes based on [Everforest](https://github.com/sainnhe/everforest-vscode) by [sainnhe](https://github.com/sainnhe), [Kanagawa](https://github.com/rebelot/kanagawa.nvim) by [rebelot](https://github.com/rebelot), and [togglebyte/nvim](https://github.com/togglebyte/nvim) (togglebit colorscheme).
 
 ## License
 
