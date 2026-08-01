@@ -368,6 +368,23 @@
       }
     },
     {
+      "scope": [
+        "keyword.declaration.enum.rust storage.type.rust",
+        "keyword.declaration.struct.rust storage.type.rust"
+      ],
+      "settings": {
+        "foreground": "#D3BF8A"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.namespace.rust"
+      ],
+      "settings": {
+        "foreground": "#B48F5D"
+      }
+    },
+    {
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
         "foreground": "#C27A7A"

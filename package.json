@@ -2,7 +2,7 @@
   "name": "dark-ever",
   "displayName": "Dark Ever",
   "description": "A theme extension with Everforest, Kanagawa, Nordic, and Nordic Light variants for Visual Studio Code.",
-  "version": "1.22.0",
+  "version": "1.23.0",
   "publisher": "correiadark",
   "license": "MIT",
   "engines": {
