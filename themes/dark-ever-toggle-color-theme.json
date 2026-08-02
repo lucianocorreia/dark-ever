@@ -51,7 +51,7 @@
     "editorGutter.modifiedBackground": "#D3BF8A",
     "editorGutter.deletedBackground": "#C27A7A",
     "editorLineNumber.foreground": "#727B8E",
-    "editorLineNumber.activeForeground": "#C6C8CF",
+    "editorLineNumber.activeForeground": "#D3BF8A",
     "editorIndentGuide.background1": "#323A4F",
     "editorIndentGuide.activeBackground1": "#4A5470",
     "editorRuler.foreground": "#3A4258",
@@ -270,7 +270,7 @@
         "source.php punctuation.definition.variable"
       ],
       "settings": {
-        "foreground": "#9099AB"
+        "foreground": "#D3BF8A"
       }
     },
     {
