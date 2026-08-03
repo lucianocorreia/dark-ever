@@ -1,8 +1,8 @@
 {
   "name": "dark-ever",
   "displayName": "Dark Ever",
-  "description": "A theme extension with Everforest, Kanagawa, Nordic, and Nordic Light variants for Visual Studio Code.",
-  "version": "2.0.0",
+  "description": "A theme extension with Everforest, Gruvbox, Kanagawa, and Nordic variants for Visual Studio Code.",
+  "version": "2.1.1",
   "publisher": "correiadark",
   "license": "MIT",
   "engines": {
@@ -31,6 +31,11 @@
         "label": "Dark Ever",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-ever-color-theme.json"
+      },
+      {
+        "label": "Dark Ever Gruvy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-ever-gruvy-color-theme.json"
       },
       {
         "label": "Dark Ever Kanagawa",

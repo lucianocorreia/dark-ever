@@ -1,8 +1,9 @@
 # Dark Ever
 
-A theme extension for Visual Studio Code with six variants:
+A theme extension for Visual Studio Code with seven variants:
 
 - **Dark Ever**: inspired by **Everforest Dark Hard** with a warm, green-based palette.
+- **Dark Ever Gruvy**: based on the **Gruvbox Dark Hard** palette used in jonhoo's Neovim configuration.
 - **Dark Ever Kanagawa**: based on **Kanagawa Wave** tones with a calm, ink-like palette.
 - **Dark Ever Kanagawa Dragon**: based on **Kanagawa Dragon** tones for darker late-night sessions.
 - **Dark Ever Nordic**: dark Nordic interpretation with cool contrast and balanced terminal colors.
@@ -31,6 +32,23 @@ Inspired by Everforest Dark Hard.
 | Aqua       | `#83c092` | ![](https://placehold.co/15x15/83c092/83c092.png) |
 | Blue       | `#7fbbb3` | ![](https://placehold.co/15x15/7fbbb3/7fbbb3.png) |
 | Purple     | `#d699b6` | ![](https://placehold.co/15x15/d699b6/d699b6.png) |
+
+### Dark Ever Gruvy
+
+Based on Gruvbox Dark Hard, the scheme loaded by jonhoo's Neovim configuration.
+
+| Role       | Color     | Preview |
+|------------|-----------|---------|
+| Background | `#1D2021` | ![](https://placehold.co/15x15/1D2021/1D2021.png) |
+| Surface    | `#3C3836` | ![](https://placehold.co/15x15/3C3836/3C3836.png) |
+| Foreground | `#D5C4A1` | ![](https://placehold.co/15x15/D5C4A1/D5C4A1.png) |
+| Terracotta | `#D65D0E` | ![](https://placehold.co/15x15/D65D0E/D65D0E.png) |
+| Orange     | `#D65D0E` | ![](https://placehold.co/15x15/D65D0E/D65D0E.png) |
+| Yellow     | `#D79921` | ![](https://placehold.co/15x15/D79921/D79921.png) |
+| Green      | `#B8BB26` | ![](https://placehold.co/15x15/B8BB26/B8BB26.png) |
+| Aqua       | `#8EC07C` | ![](https://placehold.co/15x15/8EC07C/8EC07C.png) |
+| Blue       | `#83A598` | ![](https://placehold.co/15x15/83A598/83A598.png) |
+| Purple     | `#D3869B` | ![](https://placehold.co/15x15/D3869B/D3869B.png) |
 
 ### Dark Ever Kanagawa
 
