@@ -331,6 +331,12 @@
       }
     },
     {
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#D3BF8A"
+      }
+    },
+    {
       "scope": [
         "entity.name.function.decorator",
         "meta.decorator",
