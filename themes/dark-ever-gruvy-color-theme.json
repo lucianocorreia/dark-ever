@@ -47,7 +47,7 @@
     "editorInfo.foreground": "#769A90",
     "editorHint.foreground": "#83A879",
     "editorInlayHint.background": "#00000000",
-    "editorInlayHint.foreground": "#76787266",
+    "editorInlayHint.foreground": "#AAA18F80",
     "editorGutter.background": "#202223",
     "editorGutter.addedBackground": "#A5A75B",
     "editorGutter.modifiedBackground": "#B89156",
@@ -231,6 +231,14 @@
     },
     {
       "scope": ["entity.name.function.decorator", "meta.decorator", "storage.type.annotation"],
+      "settings": { "foreground": "#B78491" }
+    },
+    {
+      "scope": ["support.macro.rust", "entity.name.function.macro.rust"],
+      "settings": { "foreground": "#A5A75B" }
+    },
+    {
+      "scope": ["meta.attribute.rust"],
       "settings": { "foreground": "#B78491" }
     },
     {
