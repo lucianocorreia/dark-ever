@@ -23,7 +23,7 @@
     "dropdown.background": "#2D2E2B",
     "dropdown.border": "#625C53",
     "dropdown.foreground": "#B8B09E",
-    "editor.background": "#202223",
+    "editor.background": "#1B1D1E",
     "editor.foreground": "#B8B09E",
     "editorCursor.foreground": "#C8C0AD",
     "editor.lineHighlightBackground": "#242625",
@@ -48,7 +48,7 @@
     "editorHint.foreground": "#83A879",
     "editorInlayHint.background": "#00000000",
     "editorInlayHint.foreground": "#AAA18F80",
-    "editorGutter.background": "#202223",
+    "editorGutter.background": "#1B1D1E",
     "editorGutter.addedBackground": "#A5A75B",
     "editorGutter.modifiedBackground": "#B89156",
     "editorGutter.deletedBackground": "#B66D4A",
@@ -110,7 +110,7 @@
     "scrollbarSlider.background": "#2D2E2BB3",
     "scrollbarSlider.hoverBackground": "#625C53B3",
     "scrollbarSlider.activeBackground": "#625C53CC",
-    "sideBar.background": "#1C1E1F",
+    "sideBar.background": "#17191A",
     "sideBar.foreground": "#B8B09E",
     "sideBar.border": "#2D2E2B",
     "sideBarSectionHeader.background": "#242625",
@@ -129,7 +129,7 @@
     "tab.border": "#2D2E2B",
     "tab.inactiveBackground": "#1C1E1F",
     "tab.hoverBackground": "#2D2E2B",
-    "terminal.background": "#1A1C1D",
+    "terminal.background": "#17191A",
     "terminal.foreground": "#B8B09E",
     "terminal.border": "#2D2E2B",
     "terminal.selectionBackground": "#4A4740CC",
@@ -191,15 +191,18 @@
     },
     {
       "scope": ["variable.language.this", "variable.language.self"],
-      "settings": { "foreground": "#B78491" }
+      "settings": { "foreground": "#B66D4A" }
     },
     {
       "scope": ["punctuation", "punctuation.definition", "keyword.operator"],
       "settings": { "foreground": "#B8B09E" }
     },
     {
+      "scope": ["keyword.operator"],
+      "settings": { "foreground": "#AAA18F" }
+    },
+    {
       "scope": [
-        "keyword.operator",
         "keyword.operator.arrow",
         "keyword.operator.arrow.rust",
         "keyword.operator.fat-arrow",
@@ -255,8 +258,10 @@
     "type": "#B89156",
     "typeParameter": "#769A90",
     "decorator": "#B78491",
+    "keyword": "#B78491",
+    "selfKeyword": "#B66D4A",
     "function": "#769A90",
-    "operator": "#B78491",
+    "operator": "#AAA18F",
     "number": "#B66D4A",
     "boolean": "#B66D4A",
     "variable": "#B8B09E",
