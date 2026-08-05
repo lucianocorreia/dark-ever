@@ -7,13 +7,13 @@
     "activityBar.foreground": "#B8B09E",
     "activityBar.inactiveForeground": "#625C53",
     "activityBar.activeBorder": "#A5A75B",
-    "activityBarBadge.background": "#A5A75B",
+    "activityBarBadge.background": "#B66D4A",
     "activityBarBadge.foreground": "#202223",
-    "badge.background": "#A5A75B",
+    "badge.background": "#B66D4A",
     "badge.foreground": "#202223",
-    "button.background": "#A5A75B",
+    "button.background": "#B66D4A",
     "button.foreground": "#202223",
-    "button.hoverBackground": "#B89156",
+    "button.hoverBackground": "#C77F5E",
     "button.secondaryBackground": "#2D2E2B",
     "button.secondaryForeground": "#B8B09E",
     "button.secondaryHoverBackground": "#383934",
@@ -32,8 +32,8 @@
     "editor.inactiveSelectionBackground": "#2D2E2BCC",
     "editor.wordHighlightBackground": "#38393499",
     "editor.wordHighlightStrongBackground": "#625C5399",
-    "editor.findMatchBackground": "#B8915699",
-    "editor.findMatchHighlightBackground": "#B8915655",
+    "editor.findMatchBackground": "#B8915666",
+    "editor.findMatchHighlightBackground": "#B8915633",
     "editorBracketHighlight.foreground1": "#769A90",
     "editorBracketHighlight.foreground2": "#A5A75B",
     "editorBracketHighlight.foreground3": "#B89156",
@@ -47,7 +47,7 @@
     "editorInfo.foreground": "#769A90",
     "editorHint.foreground": "#83A879",
     "editorInlayHint.background": "#00000000",
-    "editorInlayHint.foreground": "#AAA18F80",
+    "editorInlayHint.foreground": "#AAA18F66",
     "editorGutter.background": "#1B1D1E",
     "editorGutter.addedBackground": "#A5A75B",
     "editorGutter.modifiedBackground": "#B89156",
@@ -163,7 +163,7 @@
   "tokenColors": [
     {
       "scope": ["comment", "punctuation.definition.comment"],
-      "settings": { "foreground": "#928374", "fontStyle": "italic" }
+      "settings": { "foreground": "#8A8175", "fontStyle": "italic" }
     },
     {
       "scope": ["keyword", "storage", "keyword.control"],
@@ -238,11 +238,11 @@
     },
     {
       "scope": ["support.macro.rust", "entity.name.function.macro.rust"],
-      "settings": { "foreground": "#A5A75B" }
+      "settings": { "foreground": "#B66D4A" }
     },
     {
       "scope": ["meta.attribute.rust"],
-      "settings": { "foreground": "#B78491" }
+      "settings": { "foreground": "#B66D4A" }
     },
     {
       "scope": ["invalid", "invalid.illegal"],
