@@ -199,7 +199,7 @@
     },
     {
       "scope": ["keyword.operator"],
-      "settings": { "foreground": "#AAA18F" }
+      "settings": { "foreground": "#B78491" }
     },
     {
       "scope": [
@@ -261,7 +261,7 @@
     "keyword": "#B78491",
     "selfKeyword": "#B66D4A",
     "function": "#769A90",
-    "operator": "#AAA18F",
+    "operator": "#B78491",
     "number": "#B66D4A",
     "boolean": "#B66D4A",
     "variable": "#B8B09E",
