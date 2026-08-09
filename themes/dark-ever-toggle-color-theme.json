@@ -338,6 +338,16 @@
     },
     {
       "scope": [
+        "support.macro.rust",
+        "entity.name.function.macro.rust",
+        "entity.name.function.macro.dark-ever.rust"
+      ],
+      "settings": {
+        "foreground": "#B7A1D9"
+      }
+    },
+    {
+      "scope": [
         "entity.name.function.decorator",
         "meta.decorator",
         "punctuation.decorator",
@@ -413,6 +423,7 @@
     "type:rust": "#B48F5D",
     "typeParameter": "#9FB2CF",
     "decorator": "#B39AC8",
+    "macro": "#B7A1D9",
     "function": "#8FB7D6",
     "operator": "#BEAF84",
     "number": "#B7A1D9",

@@ -1,0 +1,22 @@
+{
+  "scopeName": "dark-ever.rust-attribute",
+  "injectionSelector": "L:meta.attribute.rust",
+  "patterns": [
+    {
+      "match": "(?<=#\\[)[\\t ]*([A-Za-z_][A-Za-z0-9_:]*)",
+      "captures": {
+        "1": {
+          "name": "entity.name.function.macro.dark-ever.rust"
+        }
+      }
+    },
+    {
+      "match": "(?<=#!\\[)[\\t ]*([A-Za-z_][A-Za-z0-9_:]*)",
+      "captures": {
+        "1": {
+          "name": "entity.name.function.macro.dark-ever.rust"
+        }
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "name": "dark-ever",
   "displayName": "Dark Ever",
   "description": "A theme extension with Everforest, Gruvbox, Kanagawa, and Nordic variants for Visual Studio Code.",
-  "version": "2.2.1",
+  "version": "2.2.5",
   "publisher": "correiadark",
   "license": "MIT",
   "engines": {
@@ -61,6 +61,13 @@
         "label": "Dark Ever Toggle",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-ever-toggle-color-theme.json"
+      }
+    ],
+    "grammars": [
+      {
+        "scopeName": "dark-ever.rust-attribute",
+        "path": "./syntaxes/dark-ever-rust-attribute.tmLanguage.json",
+        "injectTo": ["source.rust"]
       }
     ]
   },
