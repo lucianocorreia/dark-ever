@@ -236,6 +236,12 @@
       }
     },
     {
+      "scope": ["entity.name.type.lifetime.rust"],
+      "settings": {
+        "foreground": "#E69875"
+      }
+    },
+    {
       "scope": [
         "punctuation.brackets.angle",
         "punctuation.brackets.angle.rust",
