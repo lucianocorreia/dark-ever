@@ -63,6 +63,7 @@
     "editorSuggestWidget.selectedBackground": "#333B4B",
     "editorSuggestWidget.selectedForeground": "#ECEFF4",
     "editorWidget.background": "#242933",
+    "editorHoverWidget.background": "#181D25",
     "editorGroupHeader.tabsBackground": "#1A2028",
     "editorGroupHeader.noTabsBackground": "#1A2028",
     "editorGroupHeader.border": "#1A2028",
