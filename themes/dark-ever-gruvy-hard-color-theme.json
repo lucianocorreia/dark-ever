@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Dark Ever Gruvy",
+  "name": "Dark Ever Gruvy Hard",
   "type": "dark",
   "colors": {
     "activityBar.background": "#1C1E1F",
@@ -23,7 +23,7 @@
     "dropdown.background": "#2D2E2B",
     "dropdown.border": "#625C53",
     "dropdown.foreground": "#B8B09E",
-    "editor.background": "#232526",
+    "editor.background": "#17191a",
     "editor.foreground": "#B8B09E",
     "editorCursor.foreground": "#C8C0AD",
     "editor.lineHighlightBackground": "#242625",
@@ -48,7 +48,7 @@
     "editorHint.foreground": "#83A879",
     "editorInlayHint.background": "#00000000",
     "editorInlayHint.foreground": "#AAA18F66",
-    "editorGutter.background": "#232526",
+    "editorGutter.background": "#17191a",
     "editorGutter.addedBackground": "#A5A75B",
     "editorGutter.modifiedBackground": "#B89156",
     "editorGutter.deletedBackground": "#B66D4A",
