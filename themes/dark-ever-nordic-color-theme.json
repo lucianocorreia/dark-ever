@@ -185,6 +185,12 @@
       }
     },
     {
+      "scope": ["support.class.php"],
+      "settings": {
+        "foreground": "#EBCB8B"
+      }
+    },
+    {
       "scope": ["variable", "variable.parameter"],
       "settings": {
         "foreground": "#C0C8D8"
