@@ -163,7 +163,7 @@
   "tokenColors": [
     {
       "scope": ["comment", "punctuation.definition.comment"],
-      "settings": { "foreground": "#8A8175", "fontStyle": "italic" }
+      "settings": { "foreground": "#83A879", "fontStyle": "italic" }
     },
     {
       "scope": ["keyword", "storage", "keyword.control"],
