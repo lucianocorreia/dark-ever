@@ -195,7 +195,7 @@
     },
     {
       "scope": ["variable.language.this", "variable.language.self"],
-      "settings": { "foreground": "#B78491" }
+      "settings": { "foreground": "#B89156" }
     },
     {
       "scope": ["punctuation", "punctuation.definition", "keyword.operator"],
